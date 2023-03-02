@@ -18,7 +18,7 @@ the temporary directory location used for the session (or forked process).
 You can install the development version of tmpdir like so:
 
 ``` r
-remotes::install_github("")
+remotes::install_github("achubaty/tmpdir")
 ```
 
 ## Example
