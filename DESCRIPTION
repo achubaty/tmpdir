@@ -6,11 +6,12 @@ Authors@R: c(
     person("Alex M", "Chubaty", , "achubaty@for-cast.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7146-8135"))
     )
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: A simple package with a single function to change the R session temp directory.
 Imports:
     tools
 License: MIT + file LICENSE
 Encoding: UTF-8
 RoxygenNote: 7.2.3
 Roxygen: list(markdown = TRUE)
+URL: https://github.com/achubaty/tmpdir
+BugReports: https://github.com/achubaty/tmpdir/issues

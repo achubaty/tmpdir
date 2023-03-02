@@ -17,6 +17,14 @@ which may fill up the system's temporary storage (e.g., \verb{/tmp}), which coul
 Use at the start of a new R session (or immediately after forking) to switch
 the temporary directory location used for the session (or forked process).
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/achubaty/tmpdir}
+  \item Report bugs at \url{https://github.com/achubaty/tmpdir/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Alex M Chubaty \email{achubaty@for-cast.ca} (\href{https://orcid.org/0000-0001-7146-8135}{ORCID})
 
