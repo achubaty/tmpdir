@@ -1,7 +1,7 @@
 Package: tmpdir
 Type: Package
 Title: Set the Location of the R Session's Temporary Directory
-Version: 0.1.0
+Version: 0.1.1
 Authors@R: c(
     person("Alex M", "Chubaty", , "achubaty@for-cast.ca", role = c("aut", "cre"),
            comment = c(ORCID = "0000-0001-7146-8135"))
