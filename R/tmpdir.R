@@ -26,12 +26,14 @@
 setTmpDir <- function(newTmpDir, rmOldTempDir = FALSE) {
   oldTmpDir <- tempdir()
 
-  if (!dir.exists(newTmpDir)) dir.create(newTmpDir, recursive = TRUE)
-  newTmpDir <- tools::file_path_as_absolute(newTmpDir)
-  Sys.setenv(TMPDIR = newTmpDir)
+  if (oldTmpDir != newTmpDir) {
+    if (!dir.exists(newTmpDir)) dir.create(newTmpDir, recursive = TRUE)
+    newTmpDir <- tools::file_path_as_absolute(newTmpDir)
+    Sys.setenv(TMPDIR = newTmpDir)
 
-  if (isTRUE(rmOldTempDir))
-    unlink(oldTmpDir, recursive = TRUE)
+    if (isTRUE(rmOldTempDir))
+      unlink(oldTmpDir, recursive = TRUE)
 
-  tempdir(check = TRUE)
+    tempdir(check = TRUE)
+  }
 }
